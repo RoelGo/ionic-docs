@@ -91,7 +91,7 @@ import { IonicStorageModule } from '@ionic/storage';
   imports: [
     IonicStorageModule.forRoot({
       name: '__mydb',
-driverOrder: ['indexeddb', 'sqlite', 'websql']
+      driverOrder: ['indexeddb', 'sqlite', 'websql']
     })
   ],
   bootstrap: [...],
